@@ -1,5 +1,11 @@
 # TodoUi
 
+A simple "Todo" list interface to use with the [micronaut-todo](https://github.com/mkbaldwin/micronaut-todo) backend application. Both projects are intended as experiments with the different technologies. This is not a full-featured application.
+
+This project is released under the [MIT](LICENSE.md) license.
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
