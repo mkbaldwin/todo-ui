@@ -32,4 +32,9 @@ export class TodoListComponent implements OnInit {
     this.todoService.addTodo(new Todo(this.newItem.id, this.newItem.title, this.newItem.complete));
     this.resetNewTodo();
   }
+
+  clickTodo(todo: Todo) {
+    //TODO: Fix this to call the service
+    todo.complete = !todo.complete;
+  }
 }

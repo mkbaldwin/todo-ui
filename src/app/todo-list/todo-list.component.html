@@ -1,7 +1,9 @@
 <div class="row">
   <div class="col-6">
     <ul class="list-group">
-      <app-todo-item *ngFor="let todo of todos" [todo]="todo"></app-todo-item>
+      <li *ngFor="let todo of todos" class="list-group-item" (click)="clickTodo(todo)">
+        <app-todo-item  [todo]="todo"></app-todo-item>
+      </li>
     </ul>
     <h5 style="margin-top: 60px;">Add Todo</h5>
       <div class="form-group">

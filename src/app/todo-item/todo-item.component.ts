@@ -13,9 +13,4 @@ export class TodoItemComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  clickItem(todo: Todo) {
-    //TODO: Fix this to call the service
-    todo.complete = !todo.complete;
-  }
 }
