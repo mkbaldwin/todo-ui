@@ -1,0 +1,7 @@
+<li class="list-group-item" (click)="clickItem(todo)">
+  <span class="text-success" *ngIf="todo.complete">
+    <fa-icon [icon]="['fas', 'check-circle']" [fixedWidth]="true"></fa-icon>
+  </span>
+  <fa-icon [icon]="['far', 'circle']" [fixedWidth]="true" *ngIf="!todo.complete"></fa-icon>
+  <span [class.text-muted]="todo.complete">{{todo.title}}</span>
+</li>
